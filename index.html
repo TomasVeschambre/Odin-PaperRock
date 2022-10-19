@@ -1,1 +1,84 @@
-OK
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="index.css" />
+    <link href="http://fonts.cdnfonts.com/css/common-pixel" rel="stylesheet"> 
+</head>
+
+<header>
+    <nav>
+        <div class="Title">
+            <h1>Paper Rock</h1>
+        </div>
+        <div class="'logo">
+            <img class="img-logo" src="pokemon.jpeg">
+        </div>
+    </nav>
+</header>
+
+<body>
+
+    <div class="background-body">
+
+        <div class="title-body">
+            <span>Battle Pokemon</span>
+        </div>
+
+        <div class="body-score">
+            <span id="score"></span>
+        </div>
+        <div class="body-message">
+            <span id="result"></span>
+        </div>
+
+        <div class="pokemon-container">
+            <div class="flex-img-poke">
+                <div class="one">
+                    <input type="image" class="img-poke fire" onclick="playerChoice(this) && botChoice() && resultat()" src="salameche.jpeg" value="fire">
+                </div>
+                <div class="two">
+                    <input type="image" class="img-poke water" onclick="playerChoice(this) && botChoice() && resultat()" src="carapuce.jpeg" value="water"> 
+                </div>
+                <div class="three">
+                    <input type="image" class="img-poke earth" onclick="playerChoice(this) && botChoice() && resultat()" src="bulbizar.jpeg" value="earth"> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <span>Copyright © TomasVesch</span>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+    <span class="text-modal" id="show-result"></span>
+        <button class="bouton-replay">Play Again</button>
+    </div>
+  
+  </div>
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
