@@ -114,8 +114,9 @@ nav{
     color: white;
     text-align: center;
     position:absolute;
-    width: 95.8%;
+    width: 100%;
     padding: 20px;
+    margin: 0px;
 }
 
 /* The Modal (background) */
@@ -171,23 +172,6 @@ nav{
 
 .bouton-replay:hover{
     border-color: rgb(255, 6, 6);
-    text-decoration: none;
-    cursor: pointer;
-  }
-
-  /* The Close Button */
-  .close {
-    position: relative;
-    color: rgb(192, 189, 4);
-    float: right;
-    font-size: 40px;
-    font-weight: bold;
-    top: -25px;
-    right: -5%;
-  }
-  
-  .close:hover{
-    color: rgb(255, 6, 6);
     text-decoration: none;
     cursor: pointer;
   }
