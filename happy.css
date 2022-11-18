@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    background-color: black;
+  }
+
+.Title{
+    position: relative;
+    display: inline;
+    width: 90%;
+    top: 30px;
+    left:40%;
+    font-size: 30px;
+    color: white;
+    text-shadow: 0 0 10px #FF0000, 0 0 12px #0000FF;
+}
+
+.bouton{
+    background-color: white;
+    color: black;
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    top: 50%;
+    left: 48%;
+    border: 5px;
+    border-radius: 1%;
+    border-style:groove;
+}
